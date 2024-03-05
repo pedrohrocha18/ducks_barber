@@ -79,7 +79,7 @@ i {
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 1440px;
+  max-width: 100%;
 }
 
 .bg_home {
@@ -317,7 +317,7 @@ i {
 
 .btn_whatsapp .tooltip_text {
   visibility: hidden;
-  position: fixed;
+  position: absolute;
   width: 120px;
   top: 8px;
   left: -144px;
@@ -345,7 +345,6 @@ body {
   font-family: "Sora", sans-serif;
   height: 100vh;
   position: relative;
-  width: 100%;
 }
 
 button {
