@@ -79,7 +79,7 @@ i {
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 100%;
+  max-width: 1440px;
 }
 
 .bg_home {
