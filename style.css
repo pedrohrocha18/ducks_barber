@@ -283,6 +283,7 @@ i {
   justify-content: center;
   gap: 20px;
   padding: 54px 0;
+  width: 100%;
 }
 
 .footer_icons {
@@ -291,6 +292,15 @@ i {
   gap: 8px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    align-items: center;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
 .btn_whatsapp {
   position: fixed;
   bottom: 24px;

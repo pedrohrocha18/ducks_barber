@@ -205,6 +205,7 @@
   justify-content: center;
   gap: 20px;
   padding: 54px 0;
+  width: 100%;
 }
 
 .footer_icons {
@@ -212,6 +213,18 @@
   display: flex;
   gap: 8px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    align-items: center;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+// button whatsapp
 
 .btn_whatsapp {
   position: fixed;
@@ -227,6 +240,7 @@
     transform: scale(1.1);
   }
 }
+
 .btn_whatsapp .tooltip_text {
   visibility: hidden;
   position: absolute;
